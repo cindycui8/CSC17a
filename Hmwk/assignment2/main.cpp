@@ -1,4 +1,6 @@
+
 #include <cstdlib>
+
 #include <iostream>
 #include <iomanip>      // formating
 #include <string>
@@ -48,8 +50,11 @@ int main(int argc, char *argv[])
     int arr[SIZE] ;
     for(int i = 0; i < SIZE; i++)
     {
-            arr[i]= rand()%9;
+            cin >> arr[i];
     }
+    for(int i = 0; i < SIZE; i++){
+          cout << arr[i];
+          }
     
     // sort the array
      // initialize the variables

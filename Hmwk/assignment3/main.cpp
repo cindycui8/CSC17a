@@ -498,7 +498,7 @@ void pro7()
 void pro8()
 {
      // name of the file
-     char name[] = "file.dat";
+     char name[] = "file.txt";
      const int NUM =100;
      int arr[NUM];
      int i;
